@@ -37,7 +37,11 @@ int main()
         {
             PASSWORD P1(Pass_Length);
 
-            cout << endl << endl << "\tRandomly Generated Password : " << P1.Password() << endl << endl << endl;
+            cout << endl << endl;
+
+            cout << "\tRandomly Generated Password : " << P1.Password();
+
+            cout << endl << endl;
 
             break;
         }
