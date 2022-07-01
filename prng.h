@@ -14,8 +14,7 @@
 #define JUMP 12345          // Additive Value
 #define CSET 66             // Size of CharSet[]
 
-class PRNG;                 // Pseudo-Random Number Generator
-
+// Pseudo-Random Number Generator
 class PRNG    {
     private:
         int Seed, Rand();
